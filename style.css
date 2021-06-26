@@ -1,0 +1,40 @@
+.custom-inp {
+    width: 300px;
+    margin-left: 30px;
+}
+
+.form-wrapper {
+    padding: 20px;
+    width: 600px;
+    border: 2px solid grey;
+    border-radius: 20px;
+}
+
+.wrapper {
+    min-height: 100vh;
+
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.form-grid {
+    display: grid;
+    grid-template-columns: 150px 300px;
+    grid-template-rows: repeat(2, 100px);
+    align-items: center;
+}
+
+.submit-btn {
+    width: 100%;
+}
+
+.ip-wrapper {
+    width: 300px;
+    margin: 0 auto;
+    min-height: 100vh;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
